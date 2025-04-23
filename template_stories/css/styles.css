@@ -1,0 +1,46 @@
+/* navigation */
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 1em 2em;
+}
+
+.nav a {
+    text-decoration: underline;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.logo a:hover {
+    text-decoration: underline;
+}
+
+. {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+.profilepic1 {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    position: relative;
+    left: 600px;
+    top: -20px;
+    background-color: black;
+    display: inline-block;
+}
