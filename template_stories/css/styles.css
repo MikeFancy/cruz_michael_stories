@@ -1,4 +1,9 @@
 /* navigation */
+
+
+body {
+    background-color: #f5c866;
+}
 nav {
     position: sticky;
     top: 0;
@@ -6,13 +11,19 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color: #4a306d;
     color: white;
     padding: 1em 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
 }
 
 .nav a {
-    text-decoration: underline;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
 }
 
 .logo {
@@ -35,12 +46,58 @@ html {
 }
 
 .profilepic1 {
-    width: 170px;
-    height: 170px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
-    position: relative;
-    left: 600px;
-    top: -20px;
+    position: sticky;
+    left: 640px;
+    bottom: 400px;
     background-color: black;
     display: inline-block;
 }
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: 300;
+    font-style: italic;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.secondtext {
+    position: relative;
+    left: 800px;
+    top: 35px;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+
+.navbottom {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4a306d;
+    
+}
+
+.navbottom a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    position: relative;
+    right: 500px;
+}
+
+
