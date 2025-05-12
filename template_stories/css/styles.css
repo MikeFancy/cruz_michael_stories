@@ -12,7 +12,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: #4a306d;
-    color: white;
+    color: #f5c866;
     padding: 1em 2em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-optical-sizing: auto;
@@ -23,7 +23,7 @@ nav {
 .nav a {
     text-decoration: none;
     padding: 10px;
-    color: white;
+    color: #f5c866;
 }
 
 .logo {
@@ -68,17 +68,23 @@ h2 {
     font-size: larger;
     font-weight: 200;
     font-style: normal;
+    width: 400px;
+    height: 400px;
 }
 
 .secondtext {
     position: relative;
     left: 800px;
-    top: 35px;
+    bottom: 230px;
+    width: 400px;
+    height: 400px;
+
 }
 
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
+    text-align: center;
 }
 
 .navbottom {
@@ -95,9 +101,15 @@ h3 {
 .navbottom a {
     text-decoration: none;
     padding: 10px;
-    color: white;
+    color: #f5c866;
     position: relative;
-    right: 500px;
+    right: 900px;
 }
 
+.thirdtext {
+    position: relative;
+    bottom: 400px;
+    width: 400px;
+    height: 400px;
+}
 
