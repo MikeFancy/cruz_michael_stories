@@ -85,6 +85,7 @@ h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
     text-align: center;
+    font-style: oblique;
 }
 
 .navbottom {
@@ -109,6 +110,96 @@ h3 {
 .thirdtext {
     position: relative;
     bottom: 400px;
+    width: 400px;
+    height: 400px;
+}
+
+.fourthtext {
+    position: relative;
+    left: 800px;
+    bottom: 450px;
+    width: 400px;
+    height: 400px;
+}
+
+.fifthtext {
+    position: relative;
+    bottom: 600px;
+    width: 400px;
+    height: 400px;
+}
+
+.sixthtext {
+    position: relative;
+    left: 800px;
+    bottom: 800px;
+    width: 400px;
+    height: 400px;
+}
+
+.seventhtext {
+    position: relative;
+    bottom: 950px;
+    width: 400px;
+    height: 400px;
+}
+
+.eigthtext {
+    position: relative;
+    left: 800px;
+    bottom: 980px;
+    width: 400px;
+    height: 400px;
+}
+
+.ninthtext {
+    position: relative;
+    bottom: 1090px;
+    width: 400px;
+    height: 400px;
+}
+
+.tenthtext {
+    position: relative;
+    left: 800px;
+    bottom: 1200px;
+    width: 400px;
+    height: 400px;
+}
+
+.eleventext {
+    position: relative;
+    bottom: 1250px;
+    width: 400px;
+    height: 400px;
+}
+
+.twelvetext {
+    position: relative;
+    left: 800px;
+    bottom: 1250px;
+    width: 400px;
+    height: 400px;
+}
+
+.thirteentext {
+    position: relative;
+    bottom: 1280px;
+    width: 400px;
+    height: 400px;
+}
+
+.fourteentext {
+    position: relative;
+    left: 800px;
+    bottom: 1490px;
+    width: 400px;
+    height: 400px;
+}
+
+.fifteentext {
+    position: relative;
+    bottom: 1600px;
     width: 400px;
     height: 400px;
 }
